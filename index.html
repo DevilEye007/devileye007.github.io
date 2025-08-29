@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I" />
+  <title>Faizan Sultan</title>
+  <style>
+    /* Background gradient animation */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1c1c1c);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .card {
+      max-width: 650px;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+      box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.6);
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #58a6ff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      margin: 10px 0;
+      color: #58a6ff;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+      color: #ddd;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 28px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #fff;
+      background: #58a6ff;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #4078c0;
+      transform: scale(1.08);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Replace this src with your photo/logo -->
+    <img src="https://avatars.githubusercontent.com/u/143215148?s=96&v=4" alt="Faizan Sultan">
+    <h1>👋 Hey, I’m Faizan Sultan</h1>
+    <p>🚀 Frontend & Mobile Developer | 🎨 Creative Designer | 🧩 Problem Solver</p>
+
+    <a href="https://github.com/DevilEye007" target="_blank" class="btn">💻 GitHub</a>
+    <a href="https://faizan-posrfolio.vercel.app/" target="_blank" class="btn">🌐 Portfolio</a>
+    <a href="mailto:fs6700408@gmail.com" class="btn">📩 Email</a>
+    <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="btn">💼 LinkedIn</a>
+  </div>
+</body>
+</html>
